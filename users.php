@@ -18,7 +18,7 @@
 
 }
 
-function insertUser(){
+function store(){
   
   require 'db.php';
 
