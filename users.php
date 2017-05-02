@@ -8,7 +8,7 @@
  	echo "Nuk eksiston";
  }
  
- function getUsers(){  
+ function findAll(){  
 
     require 'db.php';
 
