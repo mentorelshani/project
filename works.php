@@ -7,7 +7,7 @@
  	echo "Nuk eksiston";
  }
 
- function getWorks(){  
+ function findAll(){  
  
     require 'db.php' ;	
 
