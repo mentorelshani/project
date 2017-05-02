@@ -18,7 +18,10 @@
 
 }
 
-function insertUsers(){
+
+function insert(){
+
+
   
   require 'db.php';
 
