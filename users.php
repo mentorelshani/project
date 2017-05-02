@@ -19,7 +19,7 @@
 }
 
 
-function insert(){
+function insertUsers(){
 
 
   
