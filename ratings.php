@@ -10,7 +10,7 @@
  }
 
 
- function getRatings(){  
+ function getRating11s(){  
 
 	
     require 'db.php';
