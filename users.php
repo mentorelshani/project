@@ -8,7 +8,7 @@
  	echo "Nuk eksiston";
  }
  
- function findAll(){  
+ function getUsers(){  
 
     require 'db.php';
 
@@ -18,7 +18,7 @@
 
 }
 
-function store(){
+function insert(){
   
   require 'db.php';
 
@@ -29,7 +29,7 @@ function store(){
 
 }
 
-function deleteUser(){
+function deleteUsers(){
 
    require 'db.php';
 
@@ -39,7 +39,7 @@ function deleteUser(){
 
 }
 
-function updateUser(){
+function updateUsers(){
 
    require 'db.php';
 
