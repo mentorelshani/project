@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 
            for(var i = 0; i< jsonObj[0].length; i++)
-          
+          //$("#users").append("<tr><td>"+jsonObj[0][i]['id']+"</td> <td>  "+jsonObj[0][i]['username']+"</td></tr>" );  
            $("#users").append("<div class='row'>"+jsonObj[0][i]['id']+".  "+jsonObj[0][i]['username']+"</div>" );  
 
      

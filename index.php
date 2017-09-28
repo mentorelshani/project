@@ -14,9 +14,21 @@
 <script src="js/users.js"></script>
 <script src="js/works.js"></script>
 <script src="js/ratings.js"></script>
+<script src="js/test.js"></script>
+
+
 
 <body>
+<style>
 
+	#adminpage {float: left;border-style: solid;width: 100%;position: relative; }
+
+	.links {border-style: solid; height:80%;width:45%;position: fixed; left:50%; top :20%;}
+
+	.border {border-style: solid; height:80%;width: 45%;position: fixed;left: 5%;top: 20% }
+
+
+</style>
 <div class="container-fluid">
   <div class = "row-fluid">
              ADD A USER 
@@ -33,7 +45,9 @@
   
         </form>
  
-</div>
+   </div>
+
+
 
 
 <div class="row-fluid">
@@ -75,13 +89,35 @@
 
   <input type="button" value="Top three works" id="Top3" />
 
-</div>
-</div>
+  <input type="button" value="test" id="testButton" />
 
+</div>
+</div>
+<div class="links">
 <div id='users'></div>
 <div id='ratings'></div>
 <div id='works'></div>
 
+</div>
+
+<div class = "border">
+	<div class="container">           
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Username</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+</div>
+
+
+
 
 </body>
+
 </html> 
